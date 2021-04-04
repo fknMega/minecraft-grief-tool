@@ -65,8 +65,8 @@ function someAsyncOperation(callback) {
   setTimeout(() => {
     const delay = Date.now() - timeoutScheduled;
   
-    console.log(`${delay}ms have passed since I was scheduled`);
-  }, 1000000);
+    console.log(`MineScript is exiting for "idle"`);
+  }, 10000000);
   
   someAsyncOperation(() => {
     const startCallback = Date.now();
