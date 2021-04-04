@@ -17,5 +17,5 @@ simple script that uses an famous exploit to hack into servers, logging in autom
 ## Windows
 open your terminal in the folder you extracted the files, and use the command `node index.js`
 
-![2b86f3dea5b3461a4a9511d5961ae15b (1)](https://user-images.githubusercontent.com/50393513/113513384-271db200-9572-11eb-9047-0aad8963f9a7.gif)
+![2b86f3dea5b3461a4a9511d5961ae15b (1) (1)](https://user-images.githubusercontent.com/50393513/113513457-8a0f4900-9572-11eb-9864-936e087e284f.gif)
 
