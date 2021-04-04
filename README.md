@@ -13,5 +13,5 @@ open your terminal in the folder you extracted the files, and use the command `n
 
 ![72a7a12195112ac1a420390184ef7954](https://user-images.githubusercontent.com/50393513/113494975-63abc800-94f6-11eb-8d19-3f10ddf45e5d.gif)
 
-then use the command `pkg index.js` , then execute the exe file created.
+then use the command `pkg index.js` , then execute the exe file that has been created.
 ![2b86f3dea5b3461a4a9511d5961ae15b](https://user-images.githubusercontent.com/50393513/113495007-b71e1600-94f6-11eb-891a-d0586a467ac3.gif)
