@@ -1,5 +1,5 @@
 # MineScript
-node js scipt that hack's cracked minecraft servers (still in beta)
+node js script that hack's cracked minecraft servers (still in beta)
 
 uses minecraft protocol (https://www.npmjs.com/package/minecraft-protocol)
 
