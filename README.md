@@ -3,7 +3,7 @@
 
 # node js script that hack's cracked minecraft servers (still in beta)
 
-#### uses minecraft protocol (https://www.npmjs.com/package/minecraft-protocol)
+#### uses mineflayer (https://github.com/PrismarineJS/mineflayer)
 ### requires node js
 
 
