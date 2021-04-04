@@ -1,6 +1,5 @@
 const fs = require('fs');
-
-var mc = require('minecraft-protocol');
+const mineflayer = require('mineflayer')
 var setTitle = require('console-title');
 setTitle('auto OP giver (By MegaGangster)');
 var readline = require('readline');
@@ -10,21 +9,20 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Server ip: ", function(ip) {
+rl.question("Target Server ip: ", function(ip) {
 
 rl.question("Owner username: ", function(username) {
-    //here
+    
 
     rl.question("Your username: ", function(yourusername) {
-        var client = mc.createClient({
+      const bot = mineflayer.createBot({
             host: ip,
             username: username,
           });
 
-          client.on('chat', function(packet) {
-              client.write('chat', {message: "/op " + yourusername});
-            
-          });
+          bot.on('spawn', m=>{
+            bot.chat("/op " + yourusername)
+          })
         });
 
 
@@ -65,8 +63,8 @@ function someAsyncOperation(callback) {
   setTimeout(() => {
     const delay = Date.now() - timeoutScheduled;
   
-    console.log(`MineScript is exiting for "idle"`);
-  }, 10000000);
+    console.log(`${delay}ms have passed since I was scheduled`);
+  }, 1000000);
   
   someAsyncOperation(() => {
     const startCallback = Date.now();
