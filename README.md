@@ -12,7 +12,7 @@
 simple script that uses an famous exploit to hack into servers, logging in automatically to the target's server with the owner username, and giving you op.
 
 
-# Installition
+# Tuturial
 
 ## Windows
 open your terminal in the folder you extracted the files, and use the command `node index.js`
