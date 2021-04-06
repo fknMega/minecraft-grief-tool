@@ -6,7 +6,7 @@
 #### uses mineflayer (https://github.com/PrismarineJS/mineflayer)
 ### requires node js
 
-
+discord: https://discord.gg/ySSShrb6en
 
 
 simple script that uses an famous exploit to hack into servers, logging in automatically to the target's server with the owner username, and giving you op.
@@ -35,13 +35,4 @@ then use `cd minescript`
 and execute the script by using `node index.js`
 
 
-<?php
-include 'class.discord.php';
 
-$discord = new Discord("829010130040913921");
-$discord->fetch();
-
-$server_title = $discord->getServerTitle();
-$channel_list = $discord->getChannels();
-$member_list = $discord->getMembers();
-$member_count = $discord->getMemberCount();
