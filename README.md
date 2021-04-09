@@ -15,7 +15,17 @@ simple script that uses an famous exploit to hack into servers, logging in autom
 # Tuturial
 
 ## Windows
-open your terminal in the folder you extracted the files, and use the command `node index.js`
+open your terminal in the folder you extracted the files, 
+
+type `npm i mineflayer`
+
+then `npm i console-title`
+
+then `npm i colors`
+
+then `npm i request`
+
+then use the command `node index.js` to run the script!
 
 ![f](https://user-images.githubusercontent.com/50393513/113513492-b32fd980-9572-11eb-8c9f-571fab12eff5.gif)
 
