@@ -51,25 +51,9 @@ if(a == 1) {
     console.log("")
     var url = 'https://api.mcsrvstat.us/2/' + ip;
 
-    request(url, (error, response, body)=> {
-      if (!error && response.statusCode === 200) {
-        let api = JSON.parse(body)
-    if(!api.online) {
-      console.log("\n \n")
-      console.log("server is offline!".brightRed)
-      return;
-    }
-    if(api.players.online > 0) {
-      console.log("\n \n")
 
-      console.log("players list:".brightRed)
-      console.log(api.players.list)
-    }
-      } else {
-        console.log("Got an error: ", error, ", status code: ", response.statusCode)
-        return;
-      }
-    })
+    
+
     console.log("")
     console.log("Select option.".green)
     console.log("")
