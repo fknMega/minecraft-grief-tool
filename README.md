@@ -6,7 +6,7 @@
 #### uses mineflayer (https://github.com/PrismarineJS/mineflayer)
 ### requires node js
 
-discord: https://discord.gg/ySSShrb6en
+[DISCORD](https://discord.gg/pPPxdNeBwN)
 
 
 simple script that uses an famous exploit to hack into servers, logging in automatically to the target's server with the owner username, and giving you op.
