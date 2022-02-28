@@ -7,6 +7,9 @@ will only work in cracked non-password protected servers
 
 ## grant yourself op using someone else's permissions
 
+
+Use [our exe](https://github.com/fknMega/minecraft-grief-tool/releases/tag/Releases) if you use Windows, or else:
+
 ### installation:
 
 
